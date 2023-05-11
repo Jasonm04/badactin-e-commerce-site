@@ -1519,7 +1519,13 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   #PRODUCT CARD
 \*-----------------------------------*/
 
-
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #131313;
+}
 
 .container {
     position: relative;
