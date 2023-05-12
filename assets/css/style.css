@@ -2476,7 +2476,11 @@ footer {
     border-bottom: 1px solid var(--cultured);
     margin-bottom: 10px;
   }
-
+  .panel-list a {
+    color: var(--onyx);
+    font-size: var(--fs-7);
+    font-weight: var(--weight-600);
+  }
   .panel-list-item a {
     color: var(--sonic-silver);
     font-size: var(--fs-7);
