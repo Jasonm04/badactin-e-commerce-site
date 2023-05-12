@@ -1528,7 +1528,7 @@ body {
 }
 
 .container {
-    position: relative;
+    position: fixed;
 }
 
 .container .card {
@@ -1558,7 +1558,7 @@ body {
 
 .container .card:after {
     content: "";
-    position: static;
+    position: absolute;
     top: 30%;
     left: -20%;
     font-size: 12em;
