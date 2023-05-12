@@ -2477,7 +2477,7 @@ footer {
     margin-bottom: 10px;
   }
   
-  .panel-list-item .li a {
+  .panel-list-item a {
     color: var(--onyx);
     font-size: var(--fs-7);
     font-weight: var(--weight-600);
