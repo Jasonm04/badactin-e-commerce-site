@@ -121,7 +121,7 @@ input::-ms-input-placeholder { font: inherit; }
 
 input::placeholder { font: inherit; }
 
-body { background: var(--white); }
+body { background: var(--tan-gold); }
 
 /**
  * scrollbar style
@@ -130,13 +130,13 @@ body { background: var(--white); }
 body::-webkit-scrollbar { width: 15px; }
 
 body::-webkit-scrollbar-track {
-  background: var(--white);
+  background: var(--tan-gold);
   border-left: 1px solid var(--cultured);
 }
 
 body::-webkit-scrollbar-thumb {
   background: hsl(0, 0%, 80%);
-  border: 3px solid var(--white);
+  border: 3px solid var(--tan-gold);
   -webkit-border-radius: 10px;
           border-radius: 10px;
 }
@@ -162,7 +162,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
   background: transparent;
-  border: 3px solid var(--white);
+  border: 3px solid var(--tan-gold);
   -webkit-border-radius: 20px;
           border-radius: 20px;
 }
@@ -296,7 +296,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   position: relative;
   max-width: 350px;
   margin: 20px;
-  background: var(--white);
+  background: var(--tan-gold);
   -webkit-border-radius: var(--border-radius-md);
           border-radius: var(--border-radius-md);
   overflow: hidden;
@@ -324,7 +324,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   top: 15px;
   right: 15px;
   background: var(--salmon-pink);
-  color: var(--white);
+  color: var(--tan-gold);
   font-size: 16px;
   padding: 5px;
   -webkit-border-radius: var(--border-radius-sm);
@@ -366,7 +366,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .btn-newsletter {
   background: var(--eerie-black);
-  color: var(--white);
+  color: var(--tan-gold);
   font-size: var(--fs-7);
   font-weight: var(--weight-600);
   text-transform: uppercase;
@@ -394,7 +394,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   bottom: 80px;
   left: 20px;
   right: 20px;
-  background: var(--white);
+  background: var(--tan-gold);
   max-width: 300px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -550,7 +550,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .search-field::-webkit-search-cancel-button { display: none; }
 
 .search-btn {
-  background: var(--white);
+  background: var(--tan-gold);
   position: absolute;
   top: 50%;
   right: 2px;
@@ -570,7 +570,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .search-btn:hover { color: var(--salmon-pink); }
 
 .mobile-bottom-navigation {
-  background: var(--white);
+  background: var(--tan-gold);
   position: fixed;
   bottom: 0;
   left: 50%;
@@ -606,7 +606,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .mobile-bottom-navigation .count {
   background: var(--bittersweet);
-  color: var(--white);
+  color: var(--tan-gold);
   position: absolute;
   top: 0;
   right: 0;
@@ -619,7 +619,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 .mobile-navigation-menu {
-  background: var(--white);
+  background: var(--tan-gold);
   position: fixed;
   top: 0;
   left: -100%;
@@ -871,7 +871,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .banner-btn {
   background: var(--salmon-pink);
-  color: var(--white);
+  color: var(--tan-gold);
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -987,7 +987,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 \*-----------------------------------*/
 
 .sidebar {
-  background: var(--white);
+  background: var(--tan-gold);
   position: fixed;
   top: 0;
   left: -100%;
@@ -1414,7 +1414,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .product-featured .add-cart-btn {
   background: var(--salmon-pink);
   padding: 8px 15px;
-  color: var(--white);
+  color: var(--tan-gold);
   font-weight: var(--fs-9);
   font-weight: var(--weight-700);
   text-transform: uppercase;
@@ -1428,7 +1428,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .product-featured .add-cart-btn:hover {
   background: var(--eerie-black);
-  color: var(--white);
+  color: var(--tan-gold);
 }
 
 .product-featured .showcase-status { margin-bottom: 15px; }
@@ -1577,7 +1577,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   background: var(--ocean-green);
   font-size: var(--fs-8);
   font-weight: var(--weight-500);
-  color: var(--white);
+  color: var(--tan-gold);
   padding: 0 8px;
   -webkit-border-radius: var(--border-radius-sm);
           border-radius: var(--border-radius-sm);
@@ -1616,7 +1616,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .product-grid .showcase:hover .showcase-actions { -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); }
 
 .product-grid .btn-action {
-  background: var(--white);
+  background: var(--tan-gold);
   color: var(--sonic-silver);
   margin-bottom: 5px;
   border: 1px solid var(--cultured);
@@ -1630,7 +1630,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .product-grid .btn-action:hover {
   background: var(--eerie-black);
-  color: var(--white);
+  color: var(--tan-gold);
   border-color: var(--eerie-black);
 }
 
@@ -1776,7 +1776,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .cta-content .discount {
   background: var(--eerie-black);
-  color: var(--white);
+  color: var(--tan-gold);
   font-size: var(--fs-11);
   font-weight: var(--weight-600);
   text-transform: uppercase;
@@ -2044,7 +2044,7 @@ footer {
 
 .footer-nav .nav-title {
   position: relative;
-  color: var(--white);
+  color: var(--tan-gold);
   font-size: var(--fs-7);
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -2665,7 +2665,7 @@ footer {
 
   .header-social-container .social-link:hover {
     background: var(--salmon-pink);
-    color: var(--white);
+    color: var(--tan-gold);
   }
 
   .header-user-actions {
@@ -2692,7 +2692,7 @@ footer {
     top: -2px;
     right: -3px;
     background: var(--bittersweet);
-    color: var(--white);
+    color: var(--tan-gold);
     font-size: 12px;
     font-weight: var(--weight-500);
     line-height: 1;
@@ -2761,7 +2761,7 @@ footer {
     position: absolute;
     top: 100%;
     left: 0;
-    background: var(--white);
+    background: var(--tan-gold);
     width: 100%;
     display: -ms-grid;
     display: grid;
@@ -2831,7 +2831,7 @@ footer {
     top: 100%;
     left: 0;
     width: 200px;
-    background: var(--white);
+    background: var(--tan-gold);
     padding: 20px 0;
     -webkit-border-radius: var(--border-radius-md);
             border-radius: var(--border-radius-md);
