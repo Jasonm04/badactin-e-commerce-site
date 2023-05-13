@@ -2476,14 +2476,12 @@ footer {
     border-bottom: 1px solid var(--cultured);
     margin-bottom: 10px;
   }
-  
+
   .panel-list-item a {
-    color: var(--onyx);
+    color: var(--sonic-silver);
     font-size: var(--fs-7);
-    font-weight: var(--weight-600);
-    padding-bottom: 10px;
-    border-bottom: 1px solid var(--cultured);
-    margin-bottom: 10px;
+    text-transform: capitalize;
+    transition: var(--transition-timing);
   }
 
   .panel-list-item a:hover { color: var(--salmon-pink); }
@@ -2825,5 +2823,4 @@ footer {
     left: 110px;
     max-width: 460px;
   }
-
 }
