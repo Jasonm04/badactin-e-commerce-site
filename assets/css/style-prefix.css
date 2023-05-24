@@ -1904,7 +1904,7 @@ footer {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  color: var(--sonic-silver);
+  color: var(--burgundy);
   font-size: var(--fs-7);
   text-transform: capitalize;
   -webkit-transition: var(--transition-timing);
