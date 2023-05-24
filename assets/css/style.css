@@ -1626,7 +1626,7 @@ footer {
 }
 
 .copyright {
-  color: var(--sonic-silver);
+  color: var(--burgundy);
   font-size: var(--fs-8);
   font-weight: var(--weight-500);
   text-transform: capitalize;
